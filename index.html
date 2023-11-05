@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kessoku Band</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@100;400;700&family=Rock+Salt&family=Yomogi&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" href="./image/kessoku-band.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">
+        <img src="/image/kessoku-band.png" alt="kessoku-band" />
+      </a>
+      <div class="navbar-nav">
+        <a href="#history">Band History</a>
+        <a href="#members" id="band-member">Band Members</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#gig" class="add-nav">Live Info</a>
+        <a href="#merch" class="add-nav">Merch</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#cart-info" id="cart" class="cart-logo">
+          <i data-feather="shopping-cart"></i>
+        </a>
+        <a href="#menu" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </nav>
+    <!-- home -->
+    <section class="hero" id="home">
+        <div class="buttons">
+            <a href="#gig" class="cta">Live Info</a>
+            <a href="#merch" class="cta">Merch</a>
+        </div>
+    </section>
+
+    <!-- band history -->
+    <section class="origin" id="history">
+      <div class="origin-article hidden">
+        <h2>
+          <span class="bocchi">How</span><span class="nijika">the</span> <span class="ryo">Band</span><span class="kita">Formed</span>
+        </h2>
+        <p>
+          Originally the band is formed by <span class="nijika">Nijika</span> (drummer) and <span class="ryo">Ryo</span> (bassist), before <span class="kita">Kita</span> joins as guitarist and vocalist. However, <span class="kita">Kita</span> abruptly left the band, forcing <span class="nijika">Nijika</span> to find a replacement, which led her to recruit <span class="bocchi">Hitori </span> a.k.a <span class="bocchi">Bocchi</span> as the new lead guitarist just before their first live performance at Starry Livehouse.
+        </p>
+        <p>In the performance, they only perform instrumental songs due to their still lacking in vocalist. <span class="kita">Kita</span> rejoined the band after <span class="bocchi">Bocchi</span> recruited her back to the group and solved her lack of skill issue which is the reason she quits.</p>
+        <p>
+          It was known that <span class="ryo">Ryo</span> named the band after the word "cable tie" in Japanese, and intended it as a pun.
+        </p>
+      </div>
+      <div class="origin-pic hidden">
+        <img src="./image/first-live.jpg" alt="Kessoku Band first live"/>
+        <p>Kessoku Band first live (with Bocchi inside mango box)</p>
+      </div>
+    </section>
+
+    <!-- band member -->
+    <section class="member" id="members">
+      <div class="member-id hidden">
+        <img src="./image/bo.png" alt="bocchi" class="member-button" id="guitar"/>
+        <img src="./image/ni.png" alt="nijika" class="member-button" id="drum"/>
+        <img src="./image/r.png" alt="ryo" class="member-button" id="bass"/>
+        <img src="./image/ki.png" alt="kita" class="member-button" id="vocal"/>
+      </div>
+      <div class="member-pic hidden">
+        <img src="./image/bocchi.png" alt="bocchi" class="member-showcase" id="guitarist"/>
+        <img src="./image/nijika.png" alt="nijika" class="member-showcase" id="drummer"/>
+        <img src="./image/ryo.png" alt="ryo" class="member-showcase" id="bassist"/>
+        <img src="./image/kita.png" alt="bocchi" class="member-showcase" id="vocalist"/>
+      </div>
+    </section>
+
+    <!-- gallery -->
+    <section class="gallery" id="gallery">
+      <div class="gallery-scroll gallery-snaps hidden">
+        <div class="gallery-image">
+          <img src="./image/1.png"/>
+        </div>
+        <div class="gallery-image">
+          <img src="./image/2.png"/>
+        </div>
+        <div class="gallery-image">
+          <img src="./image/3.jpg"/>
+        </div>
+        <div class="gallery-image">
+          <img src="./image/4.jpg"/>
+        </div>
+        <div class="gallery-image">
+          <img src="./image/5.jpg"/>
+        </div>
+        <div class="gallery-image">
+          <img src="./image/6.png"/>
+        </div>
+        <div class="gallery-image">
+          <img src="./image/7.png"/>
+        </div>
+        <div class="gallery-image">
+          <img src="./image/8.png"/>
+        </div>
+        <div class="gallery-image">
+          <img src="./image/9.jpg"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- live info -->
+    <section class="gig" id="gig">
+      <h2 class="hidden">Live Info</h2>
+      <div class="gig-live hidden">
+        <div class="gig-poster">
+          <img src="/image/live.jpg"/>
+        </div>
+        <div class="gig-info">
+          <p>
+            We're excited to announce that we'll be playing at Starry (Shelter) on <span class="gig-date"></span> at 7 PM. We can't wait to share our songs with you!
+          </p>
+          <p>
+            Tickets for our show are available on spot for just $3.75 (¥500), and we'd love to see all your smiling faces in the crowd. This is going to be a special night for us, and we can't wait to make some memories with all of you.
+          </p>
+          <p>
+            Thanks for your support, and we'll see you at Starry on <span class="gig-date"></span>!
+          </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d420.0997700233905!2d139.66920620440152!3d35.66143410751501!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f36a1800c2b1%3A0x8441942493bd853a!2sShelter!5e0!3m2!1sen!2sid!4v1681181051687!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="gig-map"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- merch & cart -->
+    <section class="merch" id="merch">
+      <!-- merch -->
+      <div class="merch-header hidden">Get Our Merch & <span>1</span><sup>st</sup> Album Now</div>
+      <div class="merch-items hidden">
+      </div>
+      <!-- sidecart -->
+      <div class="sidecart" id="sidecart">
+        <div class="cart-content">
+          <div class="cart-header">
+            <div class="header-title">
+             <h2>Your cart</h2> 
+             <span id="items-num">0</span>
+            </div>
+            <span class="cart-close" id="cart-close">&times;</span>
+          </div>
+          <div class="cart-items">
+          </div>
+          <div class="cart-actions">
+            <div class="subtotal">
+              <p>SUBTOTAL:</p>
+              <p>$<span id="subtotal-price">0</span></p>
+            </div>
+            <button>Checkout</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="#home" class="footer-logo hidden">
+        <img src="./image/kessoku-band.png" alt="kessoku-band" />
+      </a>
+      <div class="footer-nav hidden">
+        <a href="#history">Band History</a> 
+        <a href="#members">Band Members</a> 
+        <a href="#gallery">Gallery</a>  
+        <a href="#gig">Live Info</a>  
+        <a href="#merch">Merch</a>  
+      </div>
+      <div class="media hidden">
+        <p>Check us out on:</p>
+        <div class="media-social">
+          <a href="https://open.spotify.com/artist/2nvl0N9GwyX69RRBMEZ4OD" target="_blank" rel="noreferrer"><img src="./image/spotify.svg"/></a>
+          <a href="https://www.youtube.com/channel/UC6IhDHJbJUoRJGUPnlh5GRQ" target="_blank" rel="noreferrer"><img src="./image/youtube.svg"/></a>
+        </div>
+        <div class="me">
+          Built by<span><a href="https://github.com/ilhamsuryaf" target="_blank" rel="noreferrer">ilhamsuryaf</a></span> 
+          <p>aku Kessoku Band</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
